@@ -374,6 +374,15 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+.c-logo {
+    height: 32px;
+    display: flex;
+    align-items:flex-start;
+}
+
+.c-logo__symbol {
+    height: inherit;
+}
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
