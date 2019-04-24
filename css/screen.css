@@ -31,10 +31,16 @@ html {
     font-size: 18px;
     line-height: 32px;
     font-weight: 200;
+    color: white;
     font-family: "ClearSans Web", Helvetica, arial, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.grad {
+    background-image: linear-gradient(to bottom right, #0A257D, #061649);
+    background-attachment: fixed;
 }
 
 *,
